@@ -1,0 +1,14 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #e9ecef;
+  }
+  
+  .boardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 1.5rem;
+    overflow-x: auto;
+  }
