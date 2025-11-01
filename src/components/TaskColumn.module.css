@@ -1,0 +1,24 @@
+.taskColumn {
+    flex: 1;
+    min-width: 280px;
+    background-color: #f4f7f6;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0 0.5rem;
+    height: fit-content;
+    max-height: 80vh;
+  }
+  
+  .columnTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    padding: 0.5rem;
+    margin: 0 0 1rem 0;
+  }
+  
+  .taskList {
+    overflow-y: auto;
+    max-height: calc(80vh - 60px);
+    padding-right: 0.25rem;
+  }
