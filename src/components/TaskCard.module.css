@@ -1,0 +1,14 @@
+.taskCard {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.75rem;
+    cursor: grab;
+  }
+  
+  .taskCard p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #333;
+  }
