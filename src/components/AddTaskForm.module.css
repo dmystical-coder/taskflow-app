@@ -1,0 +1,33 @@
+/*
+ * Styles for the AddTaskForm
+ */
+
+ .addTaskForm {
+    margin-top: 1rem; /* Space above the form */
+    display: flex;
+  }
+  
+  .taskInput {
+    flex-grow: 1; /* Input takes most of the space */
+    padding: 0.65rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-right: 0.5rem; /* Space between input and button */
+    box-sizing: border-box;
+  }
+  
+  .addButton {
+    padding: 0.65rem 0.85rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .addButton:hover {
+    background-color: #0056b3;
+  }
